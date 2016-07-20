@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    >
+
+  <RelativeLayout
+        android:id="@+id/rl_aa"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:padding="@dimen/x10"
+        android:background="@drawable/shape_gradient_blue"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x20"
+            />
+    </RelativeLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_below="@+id/rl_aa"
+       android:layout_marginTop="@dimen/x10"
+       >
+   <Button 
+       android:id="@+id/location"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/location"
+       /> 
+       
+    <Button 
+        android:id="@+id/location_send"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/location_send"
+       />   
+  </LinearLayout>
+  <LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >     
+  
+       
+   <Button 
+       android:id="@+id/photograph_video"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/photograph_video"
+       />   
+       
+   <Button 
+       android:id="@+id/playback"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/playback"
+       />   
+    
+   </LinearLayout>
+ 
+</LinearLayout>

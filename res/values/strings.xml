@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">automobile_positioning</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">汽车安全定位系统</string>
+    <string name="location">定位信息</string>
+    <string name="location_send">定位信息发送</string>
+    <string name="photograph_video">照相录像</string>
+    <string name="title_activity_lead">LeadActivity</string>
+    <string name="playback">视频回放</string>
+
+</resources>
